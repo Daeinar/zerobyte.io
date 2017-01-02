@@ -1,0 +1,21 @@
+<section id="talks">
+    <h2>Talks</h2>
+    <ul>
+    {{ range .Site.Data.talks.talks }}
+        <li class="entry">
+            <div>
+                <a class="entry-title" href={{ .slides }}>{{ .title }}</a>
+                {{ if .video }}
+                    <a class="entry-code" href={{ .video }}> (video)</a>
+                {{ end }}
+            </div>
+            <div class="entry-published">
+                {{ .date }},
+                {{ .dur }},
+                {{ .event }},
+                {{ .loc }}
+            </div>
+        </li>
+    {{ end }}
+    <ul>
+</section>

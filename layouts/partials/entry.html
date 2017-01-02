@@ -1,0 +1,22 @@
+<li class="entry"> 
+    <div>
+        <a class="entry-title" href={{ .pdf }}>{{ .title }}</a>
+        {{ if .code }}
+            <a class="entry-code" href={{ .code }}> (code)</a>
+        {{ end }}
+    </div>
+    <div class="entry-author">
+        {{ .authors }}
+    </div>
+    <div class="entry-published">
+        {{ .published }}
+    </div>
+    {{ if .media }}
+        <div class="entry-media">
+            Media:
+            {{ $list := (.media) }}
+            {{ $len := (len $list) }}
+            {{ range $i, $e := .media }}<a href={{ $e.url }}>{{ $e.entry }}</a>{{ if ne (add $i 1) $len }}, {{ end }}{{ end }}
+        </div>
+    {{ end }}
+</li>

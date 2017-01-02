@@ -1,0 +1,230 @@
+publications:
+
+  - title: "Scalable Bias-Resistant Distributed Randomness"
+    authors: "Ewa Syta, Philipp Jovanovic, Eleftherios Kokoris Kogias, Nicolas Gailly, Linus Gasser, Ismail Khoffi, Michael J. Fischer, Bryan Ford"
+    published: "Cryptology ePrint Archive, Report 2016/1067"
+    year: "2016"
+    number: "19"
+    pdf: "https://eprint.iacr.org/2016/1067.pdf"
+    code: "https://github.com/dedis/cothority"
+    media: 
+
+  - title: "Nonce-Disrespecting Adversaries: Practical Forgery Attacks on GCM in TLS" 
+    authors: "Hanno Böck, Aaron Zauner, Sean Devlin, Juraj Somorovsky, Philipp Jovanovic" 
+    published: "USENIX WOOT 2016" 
+    year:
+    number: "18"
+    pdf: "https://eprint.iacr.org/2016/475.pdf" 
+    code: "https://github.com/nonce-disrespect/nonce-disrespect/"
+    media: 
+      - entry: "Ars Technica"
+        url: "http://arstechnica.com/security/2016/05/faulty-https-settings-leave-dozens-of-visa-sites-vulnerable-to-forgery-attacks/" 
+      - entry: "Pwnies"
+        url: "http://pwnies.com/nominations/"
+      - entry: "Golem"
+        url: "http://www.golem.de/news/tls-gcm-gefahr-durch-doppelte-nonces-1605-121005.html" 
+
+  - title: "Enhancing Bitcoin Security and Performance with Strong Consistency via Collective Signing" 
+    authors: "Eleftherios Kokoris-Kogias, Philipp Jovanovic, Nicolas Gailly, Ismail Khoffi, Linus Gasser, Bryan Ford" 
+    published: "USENIX Security 2016" 
+    year: 
+    number: "17"
+    pdf: "https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_kokoris-kogias.pdf" 
+    code: "https://github.com/dedis/cothority"
+    media: 
+      - entry: "Hacking, Distributed"
+        url: "http://hackingdistributed.com/2016/08/04/byzcoin/" 
+      - entry: "CryptoCoins News"
+        url: "https://www.cryptocoinsnews.com/researchers-suggest-new-method-scale-bitcoin-paypal-levels-transactions/"
+
+  - title: "Managing Identities Using Blockchains and CoSi" 
+    authors: "Eleftherios Kokoris-Kogias, Linus Gasser, Ismail Khoffi, Philipp Jovanovic, Nicolas Gailly, Bryan Ford" 
+    published: "HotPETS 2016" 
+    year: 
+    number: "16"
+    pdf: "https://www.securityweek2016.tu-darmstadt.de/fileadmin/user_upload/Group_securityweek2016/pets2016/1_Managing_identities_bryan_ford_etc.pdf"
+    code: 
+    media: 
+
+  - title: "Keeping Authorities ''Honest or Bust'' with Decentralized Witness Cosigning" 
+    authors: "Ewa Syta, Iulia Tamas, Dylan Visher, David Isaac Wolinsky, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ismail Khoffi, Bryan Ford" 
+    published: "IEEE SP 2016" 
+    year: 
+    number: "15"
+    pdf: "http://arxiv.org/pdf/1503.08768.pdf" 
+    code: "https://github.com/dedis/cothority"
+    media: 
+      - entry: "Freedom to Tinker"
+        url: "https://freedom-to-tinker.com/2016/03/10/apple-fbi-and-software-transparency/" 
+      - entry: "Ars Technica"
+        url: "http://arstechnica.com/security/2016/03/cothority-to-apple-lets-make-secret-backdoors-impossible/" 
+      - entry: "Boing Boing"
+        url: "https://boingboing.net/2016/03/10/using-distributed-code-signatu.html" 
+
+  - title: "Improved Masking for Tweakable Blockciphers with Applications to Authenticated Encryption" 
+    authors: "Robert Granger, Philipp Jovanovic, Bart Mennink, Samuel Neves" 
+    published: "EUROCRYPT 2016" 
+    year: 
+    number: "14"
+    pdf: "https://eprint.iacr.org/2015/999.pdf" 
+    code: "https://github.com/MEM-AEAD/mem-aead"
+    media:
+
+  - title: "Analyzing Permutations for AES-like Ciphers: Understanding ShiftRows" 
+    authors: "Christof Beierle, Philipp Jovanovic, Martin M. Lauridsen, Gregor Leander, Christian Rechberger" 
+    published: "CT-RSA 2015" 
+    year: "2015"
+    number: "13"
+    pdf: "https://eprint.iacr.org/2015/212.pdf" 
+    code: "https://github.com/mmeh/understanding-shiftrows"
+    media: 
+
+  - title: "Practical Cryptanalysis of the Open Smart Grid Protocol" 
+    authors: "Philipp Jovanovic, Samuel Neves" 
+    published: "FSE 2015" 
+    year: 
+    number: "12"
+    pdf: "https://eprint.iacr.org/2015/428.pdf"
+    code: 
+    media:
+      - entry: "Schneier on Security"
+        url: "https://www.schneier.com/blog/archives/2015/05/amateurs_produc.html" 
+      - entry: "Boing Boing"
+        url: "https://boingboing.net/2015/05/09/smart-grid-consortium-rolled-i.html" 
+      - entry: "Threatpost"
+        url: "https://threatpost.com/weak-homegrown-crypto-dooms-open-smart-grid-protocol/112680/"
+      - entry: "Heise"
+        url: "http://www.heise.de/security/meldung/Verschluesselte-OSGP-Kommunikation-von-Smart-Metern-leicht-belauschbar-2642228.html" 
+      - entry: "Uni Passau"
+        url: "http://www.uni-passau.de/en/bereiche/press/press-releases/news/detail/who-can-hijack-your-smart-meter-weak-security-threatens-energy-grid/" 
+
+  - title: "NORX8 and NORX16: Authenticated Encryption for Low-End Systems" 
+    authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
+    published: "TRUEDEVICE 2015" 
+    year: 
+    number: "11"
+    pdf: "https://eprint.iacr.org/2015/1154.pdf" 
+    code: "https://github.com/norx/norx"
+    media: 
+
+  - title: "Fault-based Attacks on the Bel-T Block Cipher Family" 
+    authors: "Philipp Jovanovic, Ilia Polian" 
+    published: "DATE 2015" 
+    year: 
+    number: "10"
+    pdf: "/publications/2015-JP-belt.pdf"
+    code: 
+    media:
+
+  - title: "Beyond 2^{c/2} Security in Sponge-Based Authenticated Encryption Modes" 
+    authors: "Philipp Jovanovic, Atul Luykx, Bart Mennink" 
+    published: "ASIACRYPT 2014" 
+    year: "2014"
+    number: "09"
+    pdf: "https://eprint.iacr.org/2014/373.pdf"
+    code:
+    media:
+
+  - title: "Parametric Trojans for Fault-Injection Attacks on Cryptographic Hardware" 
+    authors: "Raghavan Kumar, Philipp Jovanovic, Wayne Burleson, Ilia Polian" 
+    published: "FDTC 2014" 
+    year: 
+    number: "08"
+    pdf: "https://eprint.iacr.org/2014/783.pdf"
+    code: 
+    media:
+
+  - title: "Analysis of NORX: Investigating Differential and Rotational Properties" 
+    authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
+    published: "Latincrypt 2014" 
+    year: 
+    number: "07"
+    pdf: "https://eprint.iacr.org/2014/317.pdf" 
+    code: "https://github.com/norx/node"
+    media:
+
+  - title: "NORX: Parallel and Scalable AEAD" 
+    authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
+    published: "ESORICS 2014" 
+    year: 
+    number: "06"
+    pdf: 
+    code: "https://github.com/norx/norx"
+    media:
+
+  - title: "Precise Fault-Injections using Voltage and Temperature Manipulation for Differential Cryptanalysis" 
+    authors: "Raghavan Kumar, Philipp Jovanovic, Ilia Polian" 
+    published: "IOLTS 2014" 
+    year: 
+    number: "05"
+    pdf: "https://eprint.iacr.org/2014/782.pdf"
+    code:
+    media:
+
+  - title: "Multi-Stage Fault Attacks on Block Ciphers" 
+    authors: "Philipp Jovanovic, Martin Kreuzer, Ilia Polian" 
+    published: "WRTLT 2013" 
+    year: "2013"
+    number: "04"
+    pdf: "https://eprint.iacr.org/2013/778.pdf"
+    code: 
+    media:
+
+  - title: "An Algebraic Fault Attack on the LED Block Cipher" 
+    authors: "Philipp Jovanovic, Martin Kreuzer, Ilia Polian" 
+    published: "SCC 2012" 
+    year: "2012"
+    number: "03"
+    pdf: "https://eprint.iacr.org/2012/400.pdf"
+    code: 
+    media:
+
+  - title: "A Fault Attack on the LED Block Cipher" 
+    authors: "Philipp Jovanovic, Martin Kreuzer, Ilia Polian" 
+    published: "COSADE 2012" 
+    year: 
+    number: "02"
+    pdf: "/publications/2012-JKP-led64dfa.pdf"
+    code:
+    media:
+
+  - title: "Algebraic Attacks using SAT-Solvers" 
+    authors: "Philipp Jovanovic, Martin Kreuzer" 
+    published: "Groups – Complexity – Cryptology: 2, 2010" 
+    year: "2010"
+    number: "01"
+    pdf: "/publications/2010-JK-satattack.pdf"
+    code:
+    media:
+
+other: 
+
+  - title: "Analysis and Design of Symmetric Cryptographic Algorithms" 
+    authors: "Philipp Jovanovic" 
+    published: "PhD Thesis" 
+    year: "Other"
+    number: 
+    pdf: "https://opus4.kobv.de/opus4-uni-passau/files/331/thesis_jovanovic.pdf"
+    code:
+    media:
+
+  - title: "NORX: Parallel and Scalable Authenticated Encryption" 
+    authors: "Philipp Jovanovic" 
+    published: "Poster, TRUDEVICE 2015" 
+    year: 
+    number: 
+    pdf: "/poster/2015-03-13-norx-poster-trudevice.pdf"
+    code:
+    media:
+
+  - title: "Fault-based Attacks on the Bel-T Block Cipher Family" 
+    authors: "Philipp Jovanovic" 
+    published: "Poster, DATE 2015" 
+    year: 
+    number: 
+    pdf: "/poster/2015-03-11-dfa-belt-poster-date.pdf"
+    code:
+    media:
+
+awards:
+  - todo: ""

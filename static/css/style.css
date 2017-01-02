@@ -1,0 +1,147 @@
+a {
+    text-decoration: none;
+    color: #2a7ae2;
+}
+
+body { }
+
+blockquote {
+    font-style: italic;
+}
+
+.date {
+    margin-top: -20px;
+    margin-bottom: 35px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+figure h4 {
+    text-align: center;
+    font-weight: normal;
+}
+
+footer {
+    clear: both;
+}
+
+html {
+    border-top: solid 4px #333447; 
+}
+
+header {
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.entry {
+    font-weight: 200;
+}
+
+.entry-title {
+    font-weight: 700;
+}
+
+.entry-code {
+}
+
+.entry-author {
+}
+
+.entry-published {
+    font-style: italic;
+}
+
+.entry-media {
+}
+
+#posts a {
+    text-decoration: underline;
+    color: #333447
+}
+
+#research ol {
+    list-style-type: decimal-leading-zero;
+}
+
+#sidebar {
+    text-align: center;
+}
+
+#sidebar h1 {
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+#sidebar h1 > a {
+    color: #333447;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    display: inline;
+}
+
+#crypto-id {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+
+    section {
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    #sidebar {
+        text-align: right;
+        height: 100%;       /* Full height */
+        position: fixed;    /* Make it stick, even on scroll */
+        overflow: auto;     /* Enable scrolling if the sidenav has too much content */
+        padding-top: 15px;
+    }
+
+    #sidebar h1 {
+        font-size: 2.0rem;
+    }
+
+    #sidebar ul li {
+        display: list-item;
+    }
+
+    #crypto-id {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+
+    #sidebar {
+        padding-top: 0px;
+    }
+
+    #sidebar h1 {
+        font-size: 2.5rem;
+    }
+
+    #crypto-id {
+        font-size: 16px;
+    }
+}

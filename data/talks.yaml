@@ -1,0 +1,122 @@
+talks:
+
+  - title: "Improved Masking for Tweakable Blockciphers with Applications to Authenticated Encryption" 
+    slides: "/talks/2016-10-20-masking-speed-b.pdf"
+    video: 
+    date: "2016-10-20"
+    loc: "Utrecht (Netherlands)"
+    dur: "45 min"
+    event: "invited talk @ SPEED-B 2016"
+
+  - title: "Improved Masking for Tweakable Blockciphers with Applications to Authenticated Encryption" 
+    slides: "/talks/2016-05-09-masking-eurocrypt.pdf"
+    video: "https://www.youtube.com/watch?v=TpyrWMzXBWA"
+    date: "2016-05-09"
+    loc: "Vienna (Austria)"
+    dur: "25 min"
+    event: "EUROCRYPT 2016"
+
+  - title: "Collective Authorities: Securely Decentralising Trust at Scale" 
+    slides: "/talks/2015-12-27-collective-authorities-32c3.pdf" 
+    video:
+    date: "2015-12-27" 
+    loc: "Hamburg (Germany)" 
+    dur: "45 min" 
+    event: "32C3"
+
+  - title: "Analysis and Design of Symmetric Cryptographic Algorithms" 
+    slides: "/talks/2015-10-30-phd-defense.pdf" 
+    video:
+    date: "2015-10-30" 
+    loc: "Passau (Germany)" 
+    dur: "45 min" 
+    event: "PhD Defense"
+
+  - title: "Dumb Crypto in Smart Grids" 
+    slides: "/talks/2015-05-11-osgp-google.pdf" 
+    video:
+    date: "2015-05-11" 
+    loc: "Zurich (Switzerland)" 
+    dur: "45 min" 
+    event: "Google Tech Talk"
+
+  - title: "NORX8 and NORX16: AEAD for Low-End Systems" 
+    slides: "/talks/2015-03-10-norx8-and-norx16-fse-rump.pdf" 
+    video:
+    date: "2015-03-10" 
+    loc: "Istanbul (Turkey)"
+    dur: "3 min" 
+    event: "FSE 2015 Rump Session"
+
+  - title: "Practical Cryptanalysis of the Open Smart Grid Protocol" 
+    slides: "/talks/2015-03-10-osgp-fse.pdf" 
+    video: "https://www.youtube.com/watch?v=8LNRq-jO_hE" 
+    date: "2015-03-10" 
+    loc: "Istanbul (Turkey)" 
+    dur: "25 min" 
+    event: "FSE 2015"
+
+  - title: "CAESAR & NORX – The Future of Authenticated Encryption?" 
+    slides: "/talks/2014-12-29-norx-31c3.html" 
+    video: "https://media.ccc.de/v/31c3_-_6137_-_en_-_saal_g_-_201412291600_-_caesar_and_norx_-_philipp_jovanovic_-_aumasson"
+    date: "2014-12-29" 
+    loc: "Hamburg (Germany)" 
+    dur: "45 min" 
+    event: "31C3"
+
+  - title: "NORX – A Parallel and Scalable Authenticated Encryption Scheme" 
+    slides: "/talks/2014-11-05-norx-asfws.pdf" 
+    video:
+    date: "2014-11-04" 
+    loc: "Yverdon-les-Bains (Switzerland)" 
+    dur: "45 min" 
+    event: "ASFWS 2014"
+
+  - title: "Analysis of NORX – Investigating Differential and Rotational Properties" 
+    slides: "/talks/2014-09-17-analysis-of-norx-latincrypt.pdf" 
+    video:
+    date: "2014-09-17" 
+    loc: "Florianópolis (Brazil)"
+    dur: "25 min" 
+    event: "Latincrypt 2014"
+
+  - title: "NORX – A Parallel and Scalable Authenticated Encryption Scheme" 
+    slides: "/talks/2014-09-08-norx-esorics.pdf"
+    video:
+    date: "2014-09-08" 
+    loc: "Wroclaw (Poland)" 
+    dur: "25 min" 
+    event: "ESORICS 2014"
+
+  - title: "NORX – A Parallel and Scalable Authenticated Encryption Scheme" 
+    slides: "/talks/2014-07-31-norx-dtu.pdf"
+    video:
+    date: "2014-07-31" 
+    loc: "Kopenhagen (Denmark)" 
+    dur: "45 min" 
+    event: "DTU Research Seminar"
+
+  - title: "Algebraic Fault Attacks on Block Ciphers" 
+    slides: "/talks/2013-12-13-trudevice.pdf"
+    video:
+    date: "2013-12-13" 
+    loc: "Freiburg (Germany)" 
+    dur: "25 min" 
+    event: "TRUDEVICE 2013"
+
+  - title: "Multi-Stage Fault Attacks" 
+    slides: "/talks/2013-03-27-sets.pdf"
+    video:
+    date: "2013-03-27" 
+    loc: "Sauze d'Oulx (Italy)" 
+    dur: "25 min"
+    event: "SETS 2013"
+
+  - title: "Attacks on Cryptographic Hardware" 
+    slides: "/talks/2013-01-28-ieee.pdf"
+    video:
+    date: "2013-01-28" 
+    loc: "Passau (Germany)" 
+    dur: "45 min"
+    event: "IEEE Student Branch"
+

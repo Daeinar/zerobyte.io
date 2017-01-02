@@ -1,0 +1,12 @@
+<figure>
+    <img src="{{ .Get "src" }}" 
+        {{ if isset .Params "alt" }} 
+            alt="{{ .Get "alt" }}" 
+        {{ end }}
+    />
+    <figcaption>
+        {{ if isset .Params "title" }}
+            <h4>{{ .Get "title" }}</h4>
+        {{ end }}
+    </figcaption>
+</figure>
