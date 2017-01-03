@@ -1,6 +1,12 @@
 a {
     text-decoration: none;
-    color: #2a7ae2;
+    color: #333447; /*#2d2d2d;*/  /*#2a7ae2;*/
+}
+
+#avatar {
+    width: 150px;
+    float: right;
+    padding: 10px;
 }
 
 body { }
@@ -10,7 +16,7 @@ blockquote {
 }
 
 .date {
-    margin-top: -20px;
+    margin-top:  -15px;
     margin-bottom: 35px;
     font-family: monospace;
     font-size: 14px;
@@ -25,7 +31,7 @@ figure img {
 
 figure h4 {
     text-align: center;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 footer {
@@ -41,6 +47,7 @@ header {
 
 li {
     margin-bottom: 10px;
+    padding-left: 5px;
 }
 
 .entry {
@@ -48,7 +55,7 @@ li {
 }
 
 .entry-title {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .entry-code {
@@ -64,9 +71,16 @@ li {
 .entry-media {
 }
 
-#posts a {
-    text-decoration: underline;
-    color: #333447
+#posts h3 {
+    font-weight: 400;
+}
+
+#posts li {
+    list-style-type: none;
+}
+
+.post a, #about a {
+    color: #2a7ae2;
 }
 
 #research ol {
@@ -78,12 +92,8 @@ li {
 }
 
 #sidebar h1 {
-    font-weight: normal;
+    font-weight: 400;
     margin-bottom: 0px;
-}
-
-#sidebar h1 > a {
-    color: #333447;
 }
 
 #sidebar ul {
