@@ -52,10 +52,6 @@ html {
 header {
 }
 
-li {
-    margin-bottom: 10px;
-    padding-left: 5px;
-}
 
 .entry {
     font-weight: 200;
@@ -78,6 +74,26 @@ li {
 .entry-media {
 }
 
+li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+nav {
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    float: none;
+}
+
 p {
     text-align: justify;
 }
@@ -86,8 +102,11 @@ p {
     font-weight: 400;
 }
 
-#posts li {
+
+#posts ul, #posts li {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .post a, #about a, #home a {
@@ -107,19 +126,10 @@ p {
     margin-bottom: 0px;
 }
 
-#sidebar ul {
-    list-style-type: none;
-}
-
-#sidebar ul li {
-    display: inline;
-}
-
 #crypto-id {
     font-family: monospace;
     font-size: 14px;
 }
-
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
 }
@@ -127,7 +137,11 @@ p {
 @media only screen and (min-width: 45em) {  /* 720px */
 
     #home {
-        padding-top: 100px;
+        padding-top: 50px; /* 100px */
+    }
+
+    nav ul {
+        text-align: right;
     }
 
     section {
@@ -137,18 +151,18 @@ p {
 
     #sidebar {
         text-align: right;
-        height: 100%;       /* Full height */
-        position: fixed;    /* Make it stick, even on scroll */
-        overflow: auto;     /* Enable scrolling if the sidenav has too much content */
+    }
+
+    #sidebar {
+        text-align: right;
+        height: 100%;       
+        position: fixed;    
+        overflow: auto;     
         padding-top: 15px;
     }
 
     #sidebar h1 {
         font-size: 2.0rem;
-    }
-
-    #sidebar ul li {
-        display: list-item;
     }
 
     #crypto-id {
