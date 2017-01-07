@@ -5,14 +5,21 @@ a {
 
 #avatar {
     width: 150px;
-    float: right;
-    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body { }
 
 blockquote {
     font-style: italic;
+}
+
+#container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .date {
@@ -71,6 +78,10 @@ li {
 .entry-media {
 }
 
+p {
+    text-align: justify;
+}
+
 #posts h3 {
     font-weight: 400;
 }
@@ -79,7 +90,7 @@ li {
     list-style-type: none;
 }
 
-.post a, #about a {
+.post a, #about a, #home a {
     color: #2a7ae2;
 }
 
@@ -114,6 +125,10 @@ li {
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
+
+    #home {
+        padding-top: 100px;
+    }
 
     section {
         padding-top: 15px;

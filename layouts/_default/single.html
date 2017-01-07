@@ -9,21 +9,15 @@
                     {{ partial "sidebar.html" . }}
                 </div> <!-- col-4 -->
                 <div class="col-8">
-                    <section class="post">
+                    <section>
                         <h2>
                             {{ .Title }}
                         </h2>
-                        <div class="date">
-                            {{ dateFormat "January 2, 2006" .Date }}
-                        </div>
-                        <article>
-                            {{ .Content }}
-                        </article>
+                        {{ .Content }}
                     </section>
-                </div> <!-- col-8 -->
-            </div> <!-- row -- >
+                </div><!-- col-8 -->
+            </div> <!-- row -->
         </div> <!-- container -->
-        {{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
     </body>
 </html>
-

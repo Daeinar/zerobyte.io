@@ -1,18 +1,15 @@
 <section id="research">
-
     <h2>Publications</h2>
     <ol reversed=true>
         {{ range $.Site.Data.research.publications }}
             {{ partial "entry.html" . }}
         {{ end }} <!-- publications -->
     </ol>
-     
     <h2>Other</h2>
     <ul>
         {{ range $.Site.Data.research.other }}
             {{ partial "entry.html" . }}
         {{ end }}
     </ul>
-
     <h2>Awards & Grants</h2>
 </section>

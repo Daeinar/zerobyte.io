@@ -1,7 +1,7 @@
 <section id="talks">
     <h2>Talks</h2>
     <ul>
-    {{ range .Site.Data.talks.talks }}
+    {{ range $.Site.Data.talks.talks }}
         <li class="entry">
             <div>
                 <a class="entry-title" href={{ .slides }}>{{ .title }}</a>

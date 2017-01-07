@@ -1,17 +1,8 @@
 <section id="posts" >
     <h2>Posts</h2>
-    {{ range .Data.Pages }}
     <ul>
-        {{ if eq .Type "post" }}
-        <li>
-          <h3>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </h3>
-          <div class="date">
-              {{ dateFormat "January 2, 2006" .Date }}
-          </div>
-        </li>
-        {{ end }}
-    </ul>
+    {{ range .Site.Pages }}
+        {{ .Render "li" }}
     {{ end }}
+    </ul>
 </section>

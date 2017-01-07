@@ -1,36 +1,8 @@
 <section id="about">
-
-    <h2>About</h2>
-
-    <img id="avatar" src="/img/philipp-jovanovic.png" alt="Philipp Jovanovic" />
-
-    <p>
-    Hello and welcome to my site! My name is Philipp. I am a <a
-    href="https://en.wikipedia.org/wiki/Cryptography">cryptographer</a> and
-    postdoctoral researcher at the 
-    <a href="http://dedis.epfl.ch/">Decentralized and Distributed Systems Lab</a> 
-    at the <a href="https://epfl.ch">École Polytechnique Fédérale de Lausanne</a>, 
-    Switzerland. I completed my PhD in cryptology in 2015 at the
-    <a href="http://www.fim.uni-passau.de/en/csm_faculty/">Faculty of Computer
-    Science and Mathematics</a> of the University of Passau, Germany.
-    </p>
-    
-    <p>
-    Among other topics, I am interested in applied cryptography, digital privacy
-    protection, and IT-security. At the moment, I am in particular busy with
-    the analysis and design of authenticated encryption schemes, distributed
-    cryptographic protocols, and cryptocurrencies.
-    </p>
-
-    <p>
-    This site was built using:
-    <ul>
-        <li><a href="https://gohugo.io/">Hugo</a></li>
-        <li><a href="http://simplegrid.io/">Simple Grid</a></li>
-        <li> Vim</li>
-        <li> Git</li>
-    </ul>
-
-    </p>
-
+    <h2>
+        {{ .Title }}
+    </h2>
+    <div>
+        {{ .Content }}
+    </div>
 </section>

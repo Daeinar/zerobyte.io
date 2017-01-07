@@ -9,19 +9,9 @@
                     {{ partial "sidebar.html" . }}
                 </div> <!-- col-4 -->
                 <div class="col-8">
-                    <section class="post">
-                        <h2>
-                            {{ .Title }}
-                        </h2>
-                        <div class="date">
-                            {{ dateFormat "January 2, 2006" .Date }}
-                        </div>
-                        <article>
-                            {{ .Content }}
-                        </article>
-                    </section>
+                    {{ partial "talks.html" . }}
                 </div> <!-- col-8 -->
-            </div> <!-- row -- >
+            </div> <!-- row -->
         </div> <!-- container -->
         {{ partial "footer.html" . }}
     </body>
