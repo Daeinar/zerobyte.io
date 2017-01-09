@@ -2,41 +2,43 @@
 
     <h1><a href='{{ .Site.BaseURL }}'>Z&#926;ROBYT&#926;</a></h1>
 
-    <div>by Philipp Jovanovic</div>
+    <div class="me">by Philipp Jovanovic</div>
 
     <nav>
-        <div>
-        <ul>
-            <li><a href='{{ .Site.BaseURL }}blog'>Blog</a>
-            <li><a href='{{ .Site.BaseURL }}research'>Research</a></li>
-            <li><a href='{{ .Site.BaseURL }}talks'>Talks</a></li>
-            <li><a href='{{ .Site.BaseURL }}about'>About</a></li>
-        </ul>
+
+        <!--<div class="navigation">
+            <a href='{{ .Site.BaseURL }}blog'>Blog</a>
+            <a href='{{ .Site.BaseURL }}research'>Research</a>
+            <a href='{{ .Site.BaseURL }}talks'>Talks</a>
+            <a href='{{ .Site.BaseURL }}about'>About</a>
+        </div>-->
+
+        <div class="navigation">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <a class="{{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
         </div>
-        <div>
-        <ul>
-            <li>
-                <a href="mailto:philipp@jovanovic.io">
-                    <i class="fa fa-envelope"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/daeinar">
-                    <i class="fa fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/daeinar">
-                    <i class="fa fa-github"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://scholar.google.ch/citations?user=p-KBDi8AAAAJ&hl=en">
-                    <i class="fa fa-google"></i>
-                </a>
-            </li>
-        </ul>
+
+        <div class="social">
+            <a href="mailto:philipp@jovanovic.io">
+                <i id="mail" class="fa fa-envelope"></i>
+            </a>
+            <a href="https://twitter.com/daeinar">
+                <i id="twitter" class="fa fa-twitter"></i>
+            </a>
+            <a href="https://github.com/daeinar">
+                <i id="github" class="fa fa-github"></i>
+            </a>
+            <a href="https://scholar.google.ch/citations?user=p-KBDi8AAAAJ&hl=en">
+                <i id="google" class="fa fa-google"></i>
+            </a>
         </div>
+
+        <!--{{ range .Site.Menus.main }}
+            {{ printf "%#v" . }}
+            {{ end }}-->
+
     </nav>
 
 

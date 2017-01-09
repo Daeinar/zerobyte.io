@@ -8,3 +8,4 @@ copyright = "Copyright (c) 2014 - 2017, Philipp Jovanovic; all rights reservered
 
 [permalinks]
     post = "/blog/:year/:month/:day/:title/"
+
