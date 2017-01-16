@@ -5,7 +5,7 @@ date = "2015-09-24T9:08:00+01:00"
 updated = "2015-09-26T23:52:00+01:00"
 [menu]
 [menu.main]
-    identifier = "blogId"
+    parent = "blogId"
 +++
 
 

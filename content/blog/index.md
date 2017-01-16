@@ -4,7 +4,7 @@ description = "Blog"
 url = "/blog/"
 [menu]
 [menu.main]
-    identifier = "blogId"
+    parent = "blogId"
 +++
 
 

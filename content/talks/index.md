@@ -4,6 +4,6 @@ description = "Talks"
 url = "/talks/"
 [menu]
 [menu.main]
-    identifier = "talksId"
+    parent = "talksId"
 +++
 
