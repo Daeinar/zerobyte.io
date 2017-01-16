@@ -5,14 +5,16 @@
     <div class="me">by Philipp Jovanovic</div>
 
     <nav>
+        {{ $currentPage := . }}
+
         <div class="navigation">
-            {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
             <span>
-                <a class="{{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="{{if or ( $currentPage.IsMenuCurrent "main" . ) ( $currentPage.HasMenuCurrent "main" . ) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
             </span>
             {{ end }}
         </div>
+
 
         <div class="social">
             <a href="mailto:philipp@jovanovic.io">
@@ -28,6 +30,7 @@
                 <i id="google" class="fa fa-google"></i>
             </a>
         </div>
+
     </nav>
 
     <!--
