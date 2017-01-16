@@ -3,7 +3,6 @@ title = "Status Quo of NORX"
 author = "Philipp Jovanovic"
 date = "2014-06-15T18:34:00+01:00"
 updated = "2014-06-29T15:21:00+01:00"
-[menu]
 [menu.main]
     parent = "blogId"
 +++

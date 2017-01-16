@@ -3,7 +3,6 @@ title = "The NORX Bug Bounty Program"
 author = "Philipp Jovanovic"
 date = "2016-02-18T16:00:00+01:00"
 updated = "2016-06-01T09:00:00+01:00"
-[menu]
 [menu.main]
     parent = "blogId"
 +++
