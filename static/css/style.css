@@ -18,7 +18,7 @@ a {
 
 .active {
     font-weight: 700;
-    text-decoration: underline;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 /* green: #02b875; #00ab6b; */
@@ -31,7 +31,7 @@ blockquote {
 }
 
 #container {
-    max-width: 960px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,8 +39,10 @@ blockquote {
 .date {
     margin-top:  -15px;
     margin-bottom: 35px;
-    font-family: monospace;
-    font-size: 14px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.0px;
+    font-weight: 400;
 }
 
 figure img {
@@ -73,10 +75,36 @@ header {
 
 .entry {
     font-weight: 200;
+    font-size: 16px;
 }
 
-.entry-title {
+.entry a {
     font-weight: 400;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    -webkit-transition: border 300ms ease-in-out;
+    -moz-transition: border 300ms ease-in-out;
+    -ms-transition: border 300ms ease-in-out;
+    -o-transition: border 300ms ease-in-out;
+    transition: border 300ms ease-in-out;
+}
+
+.entry a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+
+.entry-title {
+    /*font-weight: 400;*/
+    /*border-bottom: 1px solid rgba(0, 0, 0, 0);
+    -webkit-transition: border 300ms ease-in-out;
+    -moz-transition: border 300ms ease-in-out;
+    -ms-transition: border 300ms ease-in-out;
+    -o-transition: border 300ms ease-in-out;
+    transition: border 300ms ease-in-out;*/
+}
+
+.entry-title:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 .entry-code {
@@ -92,6 +120,13 @@ header {
 .entry-media {
 }
 
+.entry-resources {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.0px;
+}
 
 li {
     margin-bottom: 10px;
@@ -146,6 +181,21 @@ p {
     font-weight: 400;
 }
 
+
+#posts h3 > a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    -webkit-transition: border 300ms ease-in-out;
+    -moz-transition: border 300ms ease-in-out;
+    -ms-transition: border 300ms ease-in-out;
+    -o-transition: border 300ms ease-in-out;
+    transition: border 300ms ease-in-out;
+}
+
+#posts h3 > a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+
 #posts ul, #posts li {
     list-style-type: none;
     padding: 0;
@@ -153,7 +203,19 @@ p {
 }
 
 .post a, #about a, #home a {
-    color: #2a7ae2;
+    /*color: #0084b4;*/
+    /*color: #4183D7; */
+    font-weight: 400;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.post a:hover, #about a:hover, #home a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    -webkit-transition: border 300ms ease-in-out;
+    -moz-transition: border 300ms ease-in-out;
+    -ms-transition: border 300ms ease-in-out;
+    -o-transition: border 300ms ease-in-out;
+    transition: border 300ms ease-in-out; 
 }
 
 #research ol {

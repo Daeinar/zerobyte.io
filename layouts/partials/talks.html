@@ -5,15 +5,18 @@
         <li class="entry">
             <div>
                 <a class="entry-title" href={{ .slides }}>{{ .title }}</a>
-                {{ if .video }}
+                <!--{{ if .video }}
                     <a class="entry-code" href={{ .video }}> (video)</a>
-                {{ end }}
+                    {{ end }}-->
             </div>
             <div class="entry-published">
                 {{ .date }},
                 {{ .dur }},
                 {{ .event }},
                 {{ .loc }}
+            </div>
+            <div class="entry-resources">
+                <a href={{ .pdf }}>slides</a>{{ if .video }} / <a href={{ .video }}>video</a>{{ end }}
             </div>
         </li>
     {{ end }}
