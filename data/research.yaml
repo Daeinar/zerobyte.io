@@ -34,8 +34,12 @@ publications:
     media: 
       - entry: "Hacking, Distributed"
         url: "http://hackingdistributed.com/2016/08/04/byzcoin/" 
+      - entry: "Bryan Ford's Blog"
+        url: "https://bford.github.io/2016/10/25/mining/"
       - entry: "CryptoCoins News"
         url: "https://www.cryptocoinsnews.com/researchers-suggest-new-method-scale-bitcoin-paypal-levels-transactions/"
+      - entry: "EPFL News"
+        url: "https://actu.epfl.ch/news/byzcoin-an-innovative-solution/"
 
   - title: "Managing Identities Using Blockchains and CoSi" 
     authors: "Eleftherios Kokoris-Kogias, Linus Gasser, Ismail Khoffi, Philipp Jovanovic, Nicolas Gailly, Bryan Ford" 
