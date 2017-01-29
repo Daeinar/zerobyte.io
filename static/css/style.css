@@ -78,6 +78,7 @@ header {
 .entry {
     font-weight: 200;
     font-size: 16px;
+    padding-bottom: 10px;
 }
 
 .entry a {
@@ -203,12 +204,6 @@ p {
 }
 
 
-#posts ul, #posts li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
 .post a, #about a, #home a {
     /*color: #0084b4;*/
     /*color: #4183D7; */
@@ -227,6 +222,12 @@ p {
 
 #research ol {
     list-style-type: decimal-leading-zero;
+}
+
+section ul, section li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 #sidebar {
@@ -290,18 +291,8 @@ strong {
 }
 
 
-#talks ul, #talks li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 
 
-#research ul, #research ol, #research li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
