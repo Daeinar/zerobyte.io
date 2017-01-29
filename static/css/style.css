@@ -236,6 +236,10 @@ p {
 #sidebar h1 {
     font-weight: 400;
     margin-bottom: 0px;
+}
+
+#sidebar h1 a:hover {
+    color: #000000;
     transition: color 300ms ease, margin-top 300ms ease;
 }
 
@@ -249,11 +253,11 @@ p {
     transition: color 300ms ease, margin-top 300ms ease;
 
     /* Circle around icons */
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 50%;
     border: 1px solid #898989; 
     transition: border-color 300ms ease;  
-    padding: 12px;
+    padding: 10px;
 }
 
 .social i:hover {
@@ -284,6 +288,21 @@ p {
 strong {
     font-weight: 400;
 }
+
+
+#talks ul, #talks li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#research ul, #research ol, #research li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
 }

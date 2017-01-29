@@ -5,6 +5,7 @@ publications:
     published: "Cryptology ePrint Archive, Report 2016/1067"
     year: "2016"
     number: "19"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2016/1067.pdf"
     code: "https://github.com/dedis/cothority"
     media: 
@@ -14,6 +15,7 @@ publications:
     published: "USENIX WOOT 2016" 
     year:
     number: "18"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2016/475.pdf" 
     code: "https://github.com/nonce-disrespect/nonce-disrespect/"
     media: 
@@ -29,6 +31,7 @@ publications:
     published: "USENIX Security 2016" 
     year: 
     number: "17"
+    type: "paper"
     pdf: "https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_kokoris-kogias.pdf" 
     code: "https://github.com/dedis/cothority"
     media: 
@@ -46,15 +49,17 @@ publications:
     published: "HotPETS 2016" 
     year: 
     number: "16"
+    type: "paper"
     pdf: "https://www.securityweek2016.tu-darmstadt.de/fileadmin/user_upload/Group_securityweek2016/pets2016/1_Managing_identities_bryan_ford_etc.pdf"
     code: 
     media: 
 
   - title: "Keeping Authorities ''Honest or Bust'' with Decentralized Witness Cosigning" 
     authors: "Ewa Syta, Iulia Tamas, Dylan Visher, David Isaac Wolinsky, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ismail Khoffi, Bryan Ford" 
-    published: "IEEE SP 2016" 
+    published: "IEEE Security & Privacy 2016" 
     year: 
     number: "15"
+    type: "paper"
     pdf: "http://arxiv.org/pdf/1503.08768.pdf" 
     code: "https://github.com/dedis/cothority"
     media: 
@@ -70,6 +75,7 @@ publications:
     published: "EUROCRYPT 2016" 
     year: 
     number: "14"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2015/999.pdf" 
     code: "https://github.com/MEM-AEAD/mem-aead"
     media:
@@ -79,6 +85,7 @@ publications:
     published: "CT-RSA 2015" 
     year: "2015"
     number: "13"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2015/212.pdf" 
     code: "https://github.com/mmeh/understanding-shiftrows"
     media: 
@@ -88,6 +95,7 @@ publications:
     published: "FSE 2015" 
     year: 
     number: "12"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2015/428.pdf"
     code: 
     media:
@@ -107,6 +115,7 @@ publications:
     published: "TRUEDEVICE 2015" 
     year: 
     number: "11"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2015/1154.pdf" 
     code: "https://github.com/norx/norx"
     media: 
@@ -116,6 +125,7 @@ publications:
     published: "DATE 2015" 
     year: 
     number: "10"
+    type: "paper"
     pdf: "/publications/2015-JP-belt.pdf"
     code: 
     media:
@@ -125,6 +135,7 @@ publications:
     published: "ASIACRYPT 2014" 
     year: "2014"
     number: "09"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2014/373.pdf"
     code:
     media:
@@ -134,6 +145,7 @@ publications:
     published: "FDTC 2014" 
     year: 
     number: "08"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2014/783.pdf"
     code: 
     media:
@@ -143,6 +155,7 @@ publications:
     published: "Latincrypt 2014" 
     year: 
     number: "07"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2014/317.pdf" 
     code: "https://github.com/norx/node"
     media:
@@ -152,6 +165,7 @@ publications:
     published: "ESORICS 2014" 
     year: 
     number: "06"
+    type: "paper"
     pdf: 
     code: "https://github.com/norx/norx"
     media:
@@ -161,6 +175,7 @@ publications:
     published: "IOLTS 2014" 
     year: 
     number: "05"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2014/782.pdf"
     code:
     media:
@@ -170,6 +185,7 @@ publications:
     published: "WRTLT 2013" 
     year: "2013"
     number: "04"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2013/778.pdf"
     code: 
     media:
@@ -179,6 +195,7 @@ publications:
     published: "SCC 2012" 
     year: "2012"
     number: "03"
+    type: "paper"
     pdf: "https://eprint.iacr.org/2012/400.pdf"
     code: 
     media:
@@ -188,6 +205,7 @@ publications:
     published: "COSADE 2012" 
     year: 
     number: "02"
+    type: "paper"
     pdf: "/publications/2012-JKP-led64dfa.pdf"
     code:
     media:
@@ -197,6 +215,7 @@ publications:
     published: "Groups – Complexity – Cryptology: 2, 2010" 
     year: "2010"
     number: "01"
+    type: "paper"
     pdf: "/publications/2010-JK-satattack.pdf"
     code:
     media:
@@ -206,26 +225,29 @@ other:
   - title: "Analysis and Design of Symmetric Cryptographic Algorithms" 
     authors: "Philipp Jovanovic" 
     published: "PhD Thesis" 
-    year: "Other"
+    year: "2015"
     number: 
+    type: "thesis"
     pdf: "https://opus4.kobv.de/opus4-uni-passau/files/331/thesis_jovanovic.pdf"
     code:
     media:
 
   - title: "NORX: Parallel and Scalable Authenticated Encryption" 
     authors: "Philipp Jovanovic" 
-    published: "Poster, TRUDEVICE 2015" 
-    year: 
+    published: "TRUDEVICE 2015" 
+    year: "2015"
     number: 
+    type: "poster"
     pdf: "/poster/2015-03-13-norx-poster-trudevice.pdf"
     code:
     media:
 
   - title: "Fault-based Attacks on the Bel-T Block Cipher Family" 
     authors: "Philipp Jovanovic" 
-    published: "Poster, DATE 2015" 
-    year: 
+    published: "DATE 2015" 
+    year: "2015"
     number: 
+    type: "poster"
     pdf: "/poster/2015-03-11-dfa-belt-poster-date.pdf"
     code:
     media:
