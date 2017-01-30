@@ -26,7 +26,11 @@ a {
 /* green: #02b875; #00ab6b; */
 /* yellow: #F7B401 */
 
-body { }
+body { 
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
 blockquote {
     font-style: italic;
@@ -36,6 +40,16 @@ blockquote {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    flex: 1;
+}
+
+#copyright {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #9F9F9F;
+    font-weight: 200;
+    font-size: 10px;
+    text-transform: uppercase;
 }
 
 .date {
@@ -59,8 +73,14 @@ figure h4 {
     font-weight: 400;
 }
 
+
 footer {
     clear: both;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #FBFBFB;
+    letter-spacing: 1.5px;
 }
 
 html {
@@ -97,13 +117,6 @@ header {
 
 
 .entry-title {
-    /*font-weight: 400;*/
-    /*border-bottom: 1px solid rgba(0, 0, 0, 0);
-    -webkit-transition: border 300ms ease-in-out;
-    -moz-transition: border 300ms ease-in-out;
-    -ms-transition: border 300ms ease-in-out;
-    -o-transition: border 300ms ease-in-out;
-    transition: border 300ms ease-in-out;*/
 }
 
 .entry-title:hover {
@@ -153,6 +166,11 @@ nav li {
 }
 */
 
+.mono {
+    font-size: 16px;
+    font-family: monospace;
+}
+
 
 .me {
     font-weight: 400;
@@ -189,7 +207,6 @@ p {
     font-weight: 400;
 }
 
-
 #posts h3 > a {
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     -webkit-transition: border 300ms ease-in-out;
@@ -218,10 +235,6 @@ p {
 
 .post a:hover, #about a:hover, #home a:hover {
     border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
-
-#research ol {
-    list-style-type: decimal-leading-zero;
 }
 
 section ul, section li {

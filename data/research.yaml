@@ -56,7 +56,7 @@ publications:
 
   - title: "Keeping Authorities ''Honest or Bust'' with Decentralized Witness Cosigning" 
     authors: "Ewa Syta, Iulia Tamas, Dylan Visher, David Isaac Wolinsky, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ismail Khoffi, Bryan Ford" 
-    published: "IEEE Security & Privacy 2016" 
+    published: "IEEE S&P 2016" 
     year: 
     number: "15"
     type: "paper"
@@ -112,7 +112,7 @@ publications:
 
   - title: "NORX8 and NORX16: Authenticated Encryption for Low-End Systems" 
     authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
-    published: "TRUEDEVICE 2015" 
+    published: "TRUDEVICE 2015" 
     year: 
     number: "11"
     type: "paper"
