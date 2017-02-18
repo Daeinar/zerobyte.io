@@ -1,6 +1,11 @@
-BIN=hugo
-SFLAGS=--buildDrafts --forceSyncStatic --verbose
+DEST=sycorax:/var/www/html/
+SRC=public/
 
 server:
-	@$(BIN) server $(SFLAGS)
+	hugo server --buildDrafts --forceSyncStatic --verbose
 
+build:
+	hugo
+
+deploy:
+	rsync -Paivz --delete $(SRC) $(DEST)
