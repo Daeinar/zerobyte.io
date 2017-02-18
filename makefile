@@ -8,4 +8,4 @@ build:
 	@hugo
 
 deploy:
-	rsync -Paivz --delete $(SRC) $(DEST)
+	@rsync -Paivz --delete $(SRC) $(DEST)

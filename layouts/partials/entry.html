@@ -6,7 +6,7 @@
         {{ .authors }}
     </div>
     <div class="entry-published">
-        {{ .published }}
+        <a href={{ .puburl }}>{{ .pub }}</a>
     </div>
     <div class="entry-resources">
         <a href={{ .pdf }}>{{ .type }}</a>{{ if .code }} / <a href={{ .code }}>code</a>{{ end }}

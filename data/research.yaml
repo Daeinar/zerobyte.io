@@ -2,7 +2,8 @@ publications:
 
   - title: "Scalable Bias-Resistant Distributed Randomness"
     authors: "Ewa Syta, Philipp Jovanovic, Eleftherios Kokoris Kogias, Nicolas Gailly, Linus Gasser, Ismail Khoffi, Michael J. Fischer, Bryan Ford"
-    published: "IEEE S&P 2017"
+    pub: "IEEE S&P 2017"
+    puburl: "http://www.ieee-security.org/TC/SP2017/"
     year: "2016"
     number: "19"
     type: "paper"
@@ -12,7 +13,8 @@ publications:
 
   - title: "Nonce-Disrespecting Adversaries: Practical Forgery Attacks on GCM in TLS" 
     authors: "Hanno Böck, Aaron Zauner, Sean Devlin, Juraj Somorovsky, Philipp Jovanovic" 
-    published: "USENIX WOOT 2016" 
+    pub: "USENIX WOOT 2016"
+    puburl: "https://www.usenix.org/conference/woot16"
     year:
     number: "18"
     type: "paper"
@@ -28,7 +30,8 @@ publications:
 
   - title: "Enhancing Bitcoin Security and Performance with Strong Consistency via Collective Signing" 
     authors: "Eleftherios Kokoris-Kogias, Philipp Jovanovic, Nicolas Gailly, Ismail Khoffi, Linus Gasser, Bryan Ford" 
-    published: "USENIX Security 2016" 
+    pub: "USENIX Security 2016"
+    puburl: "https://www.usenix.org/conference/usenixsecurity16"
     year: 
     number: "17"
     type: "paper"
@@ -46,7 +49,8 @@ publications:
 
   - title: "Managing Identities Using Blockchains and CoSi" 
     authors: "Eleftherios Kokoris-Kogias, Linus Gasser, Ismail Khoffi, Philipp Jovanovic, Nicolas Gailly, Bryan Ford" 
-    published: "HotPETS 2016" 
+    pub: "HotPETS 2016"
+    puburl: "https://www.petsymposium.org/2016/hotpets.php"
     year: 
     number: "16"
     type: "paper"
@@ -56,7 +60,8 @@ publications:
 
   - title: "Keeping Authorities ''Honest or Bust'' with Decentralized Witness Cosigning" 
     authors: "Ewa Syta, Iulia Tamas, Dylan Visher, David Isaac Wolinsky, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ismail Khoffi, Bryan Ford" 
-    published: "IEEE S&P 2016" 
+    pub: "IEEE S&P 2016" 
+    puburl: "http://www.ieee-security.org/TC/SP2016/"
     year: 
     number: "15"
     type: "paper"
@@ -72,7 +77,8 @@ publications:
 
   - title: "Improved Masking for Tweakable Blockciphers with Applications to Authenticated Encryption" 
     authors: "Robert Granger, Philipp Jovanovic, Bart Mennink, Samuel Neves" 
-    published: "EUROCRYPT 2016" 
+    pub: "EUROCRYPT 2016" 
+    puburl: "http://ist.ac.at/eurocrypt2016/"
     year: 
     number: "14"
     type: "paper"
@@ -82,7 +88,8 @@ publications:
 
   - title: "Analyzing Permutations for AES-like Ciphers: Understanding ShiftRows" 
     authors: "Christof Beierle, Philipp Jovanovic, Martin M. Lauridsen, Gregor Leander, Christian Rechberger" 
-    published: "CT-RSA 2015" 
+    pub: "CT-RSA 2015" 
+    puburl: "https://www.rsaconference.com/events/us15"
     year: "2015"
     number: "13"
     type: "paper"
@@ -92,7 +99,8 @@ publications:
 
   - title: "Practical Cryptanalysis of the Open Smart Grid Protocol" 
     authors: "Philipp Jovanovic, Samuel Neves" 
-    published: "FSE 2015" 
+    pub: "FSE 2015" 
+    puburl: "https://www.iacr.org/workshops/fse2015/"
     year: 
     number: "12"
     type: "paper"
@@ -112,7 +120,8 @@ publications:
 
   - title: "NORX8 and NORX16: Authenticated Encryption for Low-End Systems" 
     authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
-    published: "TRUDEVICE 2015" 
+    pub: "TRUDEVICE 2015"
+    puburl: "https://www.date-conference.com/date15/conference/workshop-w10"
     year: 
     number: "11"
     type: "paper"
@@ -122,7 +131,8 @@ publications:
 
   - title: "Fault-based Attacks on the Bel-T Block Cipher Family" 
     authors: "Philipp Jovanovic, Ilia Polian" 
-    published: "DATE 2015" 
+    pub: "DATE 2015" 
+    puburl: "https://www.date-conference.com/date15/"
     year: 
     number: "10"
     type: "paper"
@@ -132,7 +142,8 @@ publications:
 
   - title: "Beyond 2^{c/2} Security in Sponge-Based Authenticated Encryption Modes" 
     authors: "Philipp Jovanovic, Atul Luykx, Bart Mennink" 
-    published: "ASIACRYPT 2014" 
+    pub: "ASIACRYPT 2014" 
+    puburl: "http://des.cse.nsysu.edu.tw/asiacrypt2014/"
     year: "2014"
     number: "09"
     type: "paper"
@@ -142,7 +153,8 @@ publications:
 
   - title: "Parametric Trojans for Fault-Injection Attacks on Cryptographic Hardware" 
     authors: "Raghavan Kumar, Philipp Jovanovic, Wayne Burleson, Ilia Polian" 
-    published: "FDTC 2014" 
+    pub: "FDTC 2014" 
+    puburl: "http://conferenze.dei.polimi.it/FDTC14/"
     year: 
     number: "08"
     type: "paper"
@@ -152,7 +164,8 @@ publications:
 
   - title: "Analysis of NORX: Investigating Differential and Rotational Properties" 
     authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
-    published: "Latincrypt 2014" 
+    pub: "Latincrypt 2014" 
+    puburl: "http://latincrypt2014.labsec.ufsc.br/"
     year: 
     number: "07"
     type: "paper"
@@ -162,7 +175,8 @@ publications:
 
   - title: "NORX: Parallel and Scalable AEAD" 
     authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
-    published: "ESORICS 2014" 
+    pub: "ESORICS 2014" 
+    puburl: "http://esorics2014.pwr.wroc.pl/"
     year: 
     number: "06"
     type: "paper"
@@ -172,7 +186,8 @@ publications:
 
   - title: "Precise Fault-Injections using Voltage and Temperature Manipulation for Differential Cryptanalysis" 
     authors: "Raghavan Kumar, Philipp Jovanovic, Ilia Polian" 
-    published: "IOLTS 2014" 
+    pub: "IOLTS 2014" 
+    puburl: "http://tima.imag.fr/conferences/iolts/iolts14/"
     year: 
     number: "05"
     type: "paper"
@@ -182,7 +197,8 @@ publications:
 
   - title: "Multi-Stage Fault Attacks on Block Ciphers" 
     authors: "Philipp Jovanovic, Martin Kreuzer, Ilia Polian" 
-    published: "WRTLT 2013" 
+    pub: "WRTLT 2013" 
+    puburl: "http://www.ieee-wrtlt.org/home/2013/index.html"
     year: "2013"
     number: "04"
     type: "paper"
@@ -192,7 +208,8 @@ publications:
 
   - title: "An Algebraic Fault Attack on the LED Block Cipher" 
     authors: "Philipp Jovanovic, Martin Kreuzer, Ilia Polian" 
-    published: "SCC 2012" 
+    pub: "SCC 2012" 
+    puburl: "http://scc2012.unican.es/"
     year: "2012"
     number: "03"
     type: "paper"
@@ -202,7 +219,8 @@ publications:
 
   - title: "A Fault Attack on the LED Block Cipher" 
     authors: "Philipp Jovanovic, Martin Kreuzer, Ilia Polian" 
-    published: "COSADE 2012" 
+    pub: "COSADE 2012" 
+    puburl: "http://cosade2012.cased.de/"
     year: 
     number: "02"
     type: "paper"
@@ -212,7 +230,8 @@ publications:
 
   - title: "Algebraic Attacks using SAT-Solvers" 
     authors: "Philipp Jovanovic, Martin Kreuzer" 
-    published: "Groups – Complexity – Cryptology: 2, 2010" 
+    pub: "Groups – Complexity – Cryptology: 2, 2010" 
+    puburl: "https://www.degruyter.com/view/j/gcc.2010.2.issue-2/gcc.2010.016/gcc.2010.016.xml"
     year: "2010"
     number: "01"
     type: "paper"
