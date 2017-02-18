@@ -2,10 +2,10 @@ DEST=sycorax:/var/www/html/
 SRC=public/
 
 server:
-	hugo server --buildDrafts --forceSyncStatic --verbose
+	@hugo server --buildDrafts --forceSyncStatic --verbose
 
 build:
-	hugo
+	@hugo
 
 deploy:
 	rsync -Paivz --delete $(SRC) $(DEST)
