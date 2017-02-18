@@ -2,7 +2,7 @@ publications:
 
   - title: "Scalable Bias-Resistant Distributed Randomness"
     authors: "Ewa Syta, Philipp Jovanovic, Eleftherios Kokoris Kogias, Nicolas Gailly, Linus Gasser, Ismail Khoffi, Michael J. Fischer, Bryan Ford"
-    published: "Cryptology ePrint Archive, Report 2016/1067"
+    published: "IEEE S&P 2017"
     year: "2016"
     number: "19"
     type: "paper"
