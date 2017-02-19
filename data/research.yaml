@@ -1,10 +1,21 @@
 publications:
 
+  - title: "Proof-of-Personhood: Redemocratizing Permissionless Cryptocurrencies"
+    authors: "Maria Borge, Eleftherios Kokoris-Kogias, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Bryan Ford"
+    pub: "IEEE S&B 2017"
+    puburl: "http://prosecco.gforge.inria.fr/ieee-blockchain2016/"
+    year: "2017"
+    number: "20"
+    type: "paper"
+    pdf: "/publications/2017-BKJGGF-pop.pdf"
+    code: "https://github.com/dedis/cothority"
+    media: 
+
   - title: "Scalable Bias-Resistant Distributed Randomness"
-    authors: "Ewa Syta, Philipp Jovanovic, Eleftherios Kokoris Kogias, Nicolas Gailly, Linus Gasser, Ismail Khoffi, Michael J. Fischer, Bryan Ford"
+    authors: "Ewa Syta, Philipp Jovanovic, Eleftherios Kokoris-Kogias, Nicolas Gailly, Linus Gasser, Ismail Khoffi, Michael J. Fischer, Bryan Ford"
     pub: "IEEE S&P 2017"
     puburl: "http://www.ieee-security.org/TC/SP2017/"
-    year: "2016"
+    year: "2017"
     number: "19"
     type: "paper"
     pdf: "https://eprint.iacr.org/2016/1067.pdf"
@@ -15,7 +26,7 @@ publications:
     authors: "Hanno Böck, Aaron Zauner, Sean Devlin, Juraj Somorovsky, Philipp Jovanovic" 
     pub: "USENIX WOOT 2016"
     puburl: "https://www.usenix.org/conference/woot16"
-    year:
+    year: "2016"
     number: "18"
     type: "paper"
     pdf: "https://eprint.iacr.org/2016/475.pdf" 
@@ -32,7 +43,7 @@ publications:
     authors: "Eleftherios Kokoris-Kogias, Philipp Jovanovic, Nicolas Gailly, Ismail Khoffi, Linus Gasser, Bryan Ford" 
     pub: "USENIX Security 2016"
     puburl: "https://www.usenix.org/conference/usenixsecurity16"
-    year: 
+    year: "2016"
     number: "17"
     type: "paper"
     pdf: "https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_kokoris-kogias.pdf" 
@@ -51,7 +62,7 @@ publications:
     authors: "Eleftherios Kokoris-Kogias, Linus Gasser, Ismail Khoffi, Philipp Jovanovic, Nicolas Gailly, Bryan Ford" 
     pub: "HotPETS 2016"
     puburl: "https://www.petsymposium.org/2016/hotpets.php"
-    year: 
+    year: "2016"
     number: "16"
     type: "paper"
     pdf: "https://www.securityweek2016.tu-darmstadt.de/fileadmin/user_upload/Group_securityweek2016/pets2016/1_Managing_identities_bryan_ford_etc.pdf"
@@ -62,7 +73,7 @@ publications:
     authors: "Ewa Syta, Iulia Tamas, Dylan Visher, David Isaac Wolinsky, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ismail Khoffi, Bryan Ford" 
     pub: "IEEE S&P 2016" 
     puburl: "http://www.ieee-security.org/TC/SP2016/"
-    year: 
+    year: "2016"
     number: "15"
     type: "paper"
     pdf: "http://arxiv.org/pdf/1503.08768.pdf" 
@@ -79,7 +90,7 @@ publications:
     authors: "Robert Granger, Philipp Jovanovic, Bart Mennink, Samuel Neves" 
     pub: "EUROCRYPT 2016" 
     puburl: "http://ist.ac.at/eurocrypt2016/"
-    year: 
+    year: "2016"
     number: "14"
     type: "paper"
     pdf: "https://eprint.iacr.org/2015/999.pdf" 
@@ -101,7 +112,7 @@ publications:
     authors: "Philipp Jovanovic, Samuel Neves" 
     pub: "FSE 2015" 
     puburl: "https://www.iacr.org/workshops/fse2015/"
-    year: 
+    year: "2015"
     number: "12"
     type: "paper"
     pdf: "https://eprint.iacr.org/2015/428.pdf"
@@ -122,7 +133,7 @@ publications:
     authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
     pub: "TRUDEVICE 2015"
     puburl: "https://www.date-conference.com/date15/conference/workshop-w10"
-    year: 
+    year: "2015"
     number: "11"
     type: "paper"
     pdf: "https://eprint.iacr.org/2015/1154.pdf" 
@@ -133,7 +144,7 @@ publications:
     authors: "Philipp Jovanovic, Ilia Polian" 
     pub: "DATE 2015" 
     puburl: "https://www.date-conference.com/date15/"
-    year: 
+    year: "2015"
     number: "10"
     type: "paper"
     pdf: "/publications/2015-JP-belt.pdf"
@@ -155,7 +166,7 @@ publications:
     authors: "Raghavan Kumar, Philipp Jovanovic, Wayne Burleson, Ilia Polian" 
     pub: "FDTC 2014" 
     puburl: "http://conferenze.dei.polimi.it/FDTC14/"
-    year: 
+    year: "2014"
     number: "08"
     type: "paper"
     pdf: "https://eprint.iacr.org/2014/783.pdf"
@@ -166,7 +177,7 @@ publications:
     authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
     pub: "Latincrypt 2014" 
     puburl: "http://latincrypt2014.labsec.ufsc.br/"
-    year: 
+    year: "2014"
     number: "07"
     type: "paper"
     pdf: "https://eprint.iacr.org/2014/317.pdf" 
@@ -177,10 +188,10 @@ publications:
     authors: "Jean-Philippe Aumasson, Philipp Jovanovic, Samuel Neves" 
     pub: "ESORICS 2014" 
     puburl: "http://esorics2014.pwr.wroc.pl/"
-    year: 
+    year: "2014"
     number: "06"
     type: "paper"
-    pdf: 
+    pdf: "https://norx.io/data/norx.pdf"
     code: "https://github.com/norx/norx"
     media:
 
@@ -188,7 +199,7 @@ publications:
     authors: "Raghavan Kumar, Philipp Jovanovic, Ilia Polian" 
     pub: "IOLTS 2014" 
     puburl: "http://tima.imag.fr/conferences/iolts/iolts14/"
-    year: 
+    year: "2014"
     number: "05"
     type: "paper"
     pdf: "https://eprint.iacr.org/2014/782.pdf"
