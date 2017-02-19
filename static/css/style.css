@@ -49,7 +49,9 @@ blockquote {
     color: #8F8F8F;
     font-weight: 200;
     font-size: 10px;
-    /*text-transform: uppercase;*/
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .date {
