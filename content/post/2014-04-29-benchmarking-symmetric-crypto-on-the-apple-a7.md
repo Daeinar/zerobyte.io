@@ -1,5 +1,6 @@
 +++
 title = "Benchmarking Symmetric Crypto on the Apple A7"
+description = "Measuring performance of the algorithms BLAKE2 and NORX on the latest Apple A7 ARM chip."
 author = "Philipp Jovanovic"
 date = "2014-04-29T16:45:00+01:00"
 updated = "2014-04-29T16:45:00+01:00"

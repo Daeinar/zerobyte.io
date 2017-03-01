@@ -1,5 +1,6 @@
 +++
 title = "The NORX Bug Bounty Program"
+description = "Find bugs in the NORX algorithm, security proofs, or source code and get a reward."
 author = "Philipp Jovanovic"
 date = "2016-02-18T16:00:00+01:00"
 updated = "2016-06-01T09:00:00+01:00"

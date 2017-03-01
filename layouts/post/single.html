@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
     {{ partial "head.html" . }}
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@daeinar" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{ .Description }}" />
+
     <body>
         {{ partial "header.html" . }}
         <div class="container">
