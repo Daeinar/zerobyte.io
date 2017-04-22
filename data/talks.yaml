@@ -1,5 +1,13 @@
 talks:
 
+  - title: "Collective Authorities - Transparency and Decentralized Trust at Scale" 
+    slides: "/talks/2017-04-22-cothority-dotsecurity.pdf"
+    video: 
+    date: "2017-04-22"
+    loc: "Paris (France)"
+    dur: "18 min"
+    event: "invited talk @ dotsecurity.io 2017"
+
   - title: "Improved Masking for Tweakable Blockciphers with Applications to Authenticated Encryption" 
     slides: "/talks/2016-10-20-masking-speed-b.pdf"
     video: 
