@@ -1,9 +1,9 @@
 talks:
 
   - title: "Collective Authorities – Transparency and Decentralized Trust at Scale" 
-    slides: "/talks/2017-04-22-cothority-dotsecurity.pdf"
+    slides: "/talks/2017-04-21-cothority-dotsecurity.pdf"
     video: 
-    date: "2017-04-22"
+    date: "2017-04-21"
     loc: "Paris (France)"
     dur: "18 min"
     event: "invited talk @ dotsecurity.io 2017"
