@@ -1,5 +1,16 @@
 publications:
 
+  - title: "OmniLedger: A Secure, Scale-Out, Decentralized Ledger"
+    authors: "Eleftherios Kokoris-Kogias and Philipp Jovanovic and Linus Gasser and Nicolas Gailly and Bryan Ford"
+    pub: "Cryptology ePrint Archive: Report 2017/406"
+    puburl: "https://eprint.iacr.org/2017/406"
+    year: "2017"
+    number: "21"
+    type: "paper"
+    pdf: "https://eprint.iacr.org/2017/406.pdf"
+    code: 
+    media: 
+
   - title: "Proof-of-Personhood: Redemocratizing Permissionless Cryptocurrencies"
     authors: "Maria Borge, Eleftherios Kokoris-Kogias, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Bryan Ford"
     pub: "IEEE S&B 2017"
