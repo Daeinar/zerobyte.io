@@ -1,5 +1,13 @@
 talks:
 
+  - title: "Scalable Bias-Resistant Distributed Randomness" 
+    slides: "/talks/2017-05-23-randomness-ieeesp.pdf"
+    video: 
+    date: "2017-05-23"
+    loc: "San Jose (USA)"
+    dur: "16 min"
+    event: "IEEE Security & Privacy 2017"
+
   - title: "Collective Authorities – Transparency and Decentralized Trust at Scale" 
     slides: "/talks/2017-04-21-cothority-dotsecurity.pdf"
     video: 
