@@ -5,9 +5,20 @@ publications:
     pub: "Cryptology ePrint Archive: Report 2017/406"
     puburl: "https://eprint.iacr.org/2017/406"
     year: "2017"
-    number: "21"
+    number: "22"
     type: "paper"
     pdf: "https://eprint.iacr.org/2017/406.pdf"
+    code: 
+    media: 
+
+  - title: "Chainiac: Proactive Software-Update Transparency via Collectively Signed Skipchains and Verified Builds"
+    authors: "Kirill Nikitin and Eleftherios Kokoris-Kogias and Philipp Jovanovic and Nicolas Gailly and Linus Gasser and Ismail Khoffi and Justin Cappos and Bryan Ford"
+    pub: "USENIX Security 2017 (to appear)"
+    puburl: "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/nikitin"
+    year: "2017"
+    number: "21"
+    type: "paper"
+    pdf: 
     code: 
     media: 
 

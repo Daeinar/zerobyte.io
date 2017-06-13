@@ -2,7 +2,7 @@ talks:
 
   - title: "Scalable Bias-Resistant Distributed Randomness" 
     slides: "/talks/2017-05-23-randomness-ieeesp.pdf"
-    video: 
+    video: "https://www.youtube.com/watch?list=PL0pRF4xvoD0lpoxxpoDACfMSpKjR11Cyb&v=7jz8aDwnkoc"
     date: "2017-05-23"
     loc: "San Jose (USA)"
     dur: "16 min"
