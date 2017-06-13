@@ -9,7 +9,7 @@
         <a href={{ .puburl }}>{{ .pub }}</a>
     </div>
     <div class="entry-resources">
-        <a href={{ .pdf }}>{{ .type }}</a>{{ if .code }} / <a href={{ .code }}>code</a>{{ end }}
+        {{ if .pdf }}<a href={{ .pdf }}>{{ .type }}</a>{{ end }}{{ if .code }} / <a href={{ .code }}>code</a>{{ end }}
     </div>
     {{ if .media }}
     <div class="entry-resources">
