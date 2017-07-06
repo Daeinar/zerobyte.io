@@ -1,4 +1,4 @@
-DEST=sycorax:/var/www/html/
+DEST=sycorax:/var/www/zerobyte.io/html/
 SRC=public/
 
 server:
